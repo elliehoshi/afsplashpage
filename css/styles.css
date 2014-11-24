@@ -50,13 +50,8 @@ body {
 .feature img {
   width: 80px;
 }
-/* line 49, ../scss/styles.scss */
-.feature p {
-  text-align: left;
-  line-height: 20px;
-}
 
-/* line 55, ../scss/styles.scss */
+/* line 51, ../scss/styles.scss */
 .cta-button {
   background-color: rgba(255, 255, 255, 0);
   width: 100px;
@@ -66,60 +61,60 @@ body {
   border-radius: 5px;
   transition: ease all;
 }
-/* line 63, ../scss/styles.scss */
+/* line 59, ../scss/styles.scss */
 .cta-button:hover {
   background-color: #b6c0b5;
 }
-/* line 66, ../scss/styles.scss */
+/* line 62, ../scss/styles.scss */
 .cta-button.header-button {
   display: block;
   margin: 0 auto;
 }
-/* line 70, ../scss/styles.scss */
+/* line 66, ../scss/styles.scss */
 .cta-button.main {
   width: 200px;
   height: 50px;
 }
-/* line 74, ../scss/styles.scss */
+/* line 70, ../scss/styles.scss */
 .cta-button.section-button {
   float: left;
 }
 
-/* line 79, ../scss/styles.scss */
+/* line 75, ../scss/styles.scss */
 section {
   padding: 20px;
   height: auto;
   width: 100%;
   overflow: hidden;
 }
-/* line 84, ../scss/styles.scss */
+/* line 80, ../scss/styles.scss */
 section.blue-section {
   background-color: #b2d3cf;
 }
 
-/* line 89, ../scss/styles.scss */
+/* line 85, ../scss/styles.scss */
 .half {
   width: 49%;
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
 }
-/* line 94, ../scss/styles.scss */
+/* line 90, ../scss/styles.scss */
 .half h1, .half p {
   text-align: left;
   line-height: 24px;
 }
-/* line 98, ../scss/styles.scss */
+/* line 94, ../scss/styles.scss */
 .half img {
   width: 40%;
 }
 
-/* line 103, ../scss/styles.scss */
+/* line 99, ../scss/styles.scss */
 .brands {
   background-color: #b6c0b5;
   color: white;
 }
-/* line 106, ../scss/styles.scss */
+/* line 102, ../scss/styles.scss */
 .brands img {
   display: inline-block;
   height: 100px;
@@ -128,7 +123,7 @@ section.blue-section {
   margin: 10px;
 }
 
-/* line 115, ../scss/styles.scss */
+/* line 111, ../scss/styles.scss */
 footer {
   background-color: #b6c0b5;
   bottom: 0px;
