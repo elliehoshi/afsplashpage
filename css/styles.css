@@ -1,0 +1,135 @@
+/* line 7, ../scss/styles.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 11, ../scss/styles.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #ecefec;
+  color: #80917e;
+}
+
+/* line 18, ../scss/styles.scss */
+.page-container {
+  position: relative;
+  width: 100%;
+}
+
+/* line 23, ../scss/styles.scss */
+.header {
+  background: -webkit-linear-gradient(90deg, #af9447 10%, #72ada7 90%);
+  /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(90deg, #af9447 10%, #72ada7 90%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #af9447 10%, #72ada7 90%);
+  /* IE10 */
+  background: -o-linear-gradient(90deg, #af9447 10%, #72ada7 90%);
+  /* Opera 11.10+ */
+  background: linear-gradient(90deg, #af9447 10%, #72ada7 90%);
+  /* W3C */
+  padding: 50px;
+  height: auto;
+  width: 100%;
+  color: white;
+}
+
+/* line 36, ../scss/styles.scss */
+.feature {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: auto;
+  margin: 25px;
+  border-radius: 10px;
+  padding: 20px;
+}
+/* line 45, ../scss/styles.scss */
+.feature img {
+  width: 80px;
+}
+/* line 48, ../scss/styles.scss */
+.feature p {
+  text-align: left;
+  line-height: 20px;
+}
+
+/* line 54, ../scss/styles.scss */
+.cta-button {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100px;
+  height: 35px;
+  border-style: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: ease all;
+}
+/* line 62, ../scss/styles.scss */
+.cta-button:hover {
+  background-color: #b6c0b5;
+}
+/* line 65, ../scss/styles.scss */
+.cta-button.header-button {
+  display: block;
+  margin: 0 auto;
+}
+/* line 69, ../scss/styles.scss */
+.cta-button.main {
+  width: 200px;
+  height: 50px;
+}
+/* line 73, ../scss/styles.scss */
+.cta-button.section-button {
+  float: left;
+}
+
+/* line 78, ../scss/styles.scss */
+section {
+  padding: 20px;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 83, ../scss/styles.scss */
+section.blue-section {
+  background-color: #b2d3cf;
+}
+
+/* line 88, ../scss/styles.scss */
+.half {
+  width: 49%;
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 93, ../scss/styles.scss */
+.half h1, .half p {
+  text-align: left;
+  line-height: 24px;
+}
+/* line 97, ../scss/styles.scss */
+.half img {
+  width: 40%;
+}
+
+/* line 102, ../scss/styles.scss */
+.brands {
+  background-color: #136175;
+}
+/* line 104, ../scss/styles.scss */
+.brands img {
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  max-width: 150px;
+  margin: 10px;
+}
+
+/* line 113, ../scss/styles.scss */
+footer {
+  bottom: 0px;
+  top: auto;
+  padding: 10px;
+  font-size: 11px;
+}
