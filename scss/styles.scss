@@ -31,6 +31,7 @@ body {
   height: auto;
   width: 100%;
   color: white;
+  border-bottom: 15px solid $gray;
 }
 
 .feature {
@@ -100,7 +101,8 @@ section {
 }
 
 .brands {
-  background-color: $dark-blue;
+  background-color: $gray;
+  color: white;
   img {
     display: inline-block;
     height: 100px;
@@ -112,6 +114,7 @@ section {
 
 footer {
   // position: absolute;
+  background-color: $gray;
   bottom: 0px;
   top: auto;
   padding: 10px;
