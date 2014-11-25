@@ -125,6 +125,10 @@ section {
   }
   img {
     width: 40%;
+    &.contact-icon {
+      width: 75px;
+      height: auto;
+    }
   }
   &.contact {
     padding: 25px;
@@ -136,6 +140,10 @@ section {
     text-align: right;
   }
   text-align: right;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .brands {

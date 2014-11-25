@@ -149,26 +149,36 @@ section a {
 .half img {
   width: 40%;
 }
-/* line 129, ../scss/styles.scss */
+/* line 128, ../scss/styles.scss */
+.half img.contact-icon {
+  width: 75px;
+  height: auto;
+}
+/* line 133, ../scss/styles.scss */
 .half.contact {
   padding: 25px;
 }
 
-/* line 134, ../scss/styles.scss */
+/* line 138, ../scss/styles.scss */
 .text-right {
   text-align: right;
 }
-/* line 135, ../scss/styles.scss */
+/* line 139, ../scss/styles.scss */
 .text-right p {
   text-align: right;
 }
 
-/* line 141, ../scss/styles.scss */
+/* line 145, ../scss/styles.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 149, ../scss/styles.scss */
 .brands {
   background-color: #b6c0b5;
   color: white;
 }
-/* line 144, ../scss/styles.scss */
+/* line 152, ../scss/styles.scss */
 .brands img {
   display: inline-block;
   height: 100px;
@@ -177,7 +187,7 @@ section a {
   margin: 10px;
 }
 
-/* line 153, ../scss/styles.scss */
+/* line 161, ../scss/styles.scss */
 footer {
   background-color: #b2d3cf;
   bottom: 0px;
