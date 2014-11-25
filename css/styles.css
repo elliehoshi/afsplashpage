@@ -36,20 +36,21 @@ a {
   /* W3C */
   padding: 50px;
   height: auto;
+  min-height: 100vh;
   width: 100%;
   color: white;
   border-bottom: 15px solid #b6c0b5;
 }
-/* line 38, ../scss/styles.scss */
+/* line 39, ../scss/styles.scss */
 .header h1 {
   margin-bottom: 5px;
 }
-/* line 41, ../scss/styles.scss */
+/* line 42, ../scss/styles.scss */
 .header p {
   margin-top: 5px;
 }
 
-/* line 46, ../scss/styles.scss */
+/* line 47, ../scss/styles.scss */
 .feature {
   display: inline-block;
   vertical-align: top;
@@ -59,7 +60,7 @@ a {
   border-radius: 10px;
   padding: 20px;
 }
-/* line 55, ../scss/styles.scss */
+/* line 56, ../scss/styles.scss */
 .feature .feature-image-contain {
   width: 100px;
   height: 100px;
@@ -68,22 +69,22 @@ a {
   border-radius: 50%;
   margin: 0 auto;
 }
-/* line 63, ../scss/styles.scss */
+/* line 64, ../scss/styles.scss */
 .feature img {
   width: 60px;
   height: 60px;
   margin-top: 15px;
 }
-/* line 68, ../scss/styles.scss */
+/* line 69, ../scss/styles.scss */
 .feature h3 {
   margin-bottom: 5px;
 }
-/* line 71, ../scss/styles.scss */
+/* line 72, ../scss/styles.scss */
 .feature a {
   color: white;
 }
 
-/* line 76, ../scss/styles.scss */
+/* line 77, ../scss/styles.scss */
 .cta-button {
   background-color: rgba(255, 255, 255, 0);
   width: 100px;
@@ -93,81 +94,81 @@ a {
   border-radius: 5px;
   transition: ease all;
 }
-/* line 84, ../scss/styles.scss */
+/* line 85, ../scss/styles.scss */
 .cta-button:hover {
   background-color: #b6c0b5;
 }
-/* line 87, ../scss/styles.scss */
+/* line 88, ../scss/styles.scss */
 .cta-button.header-button {
   display: block;
   margin: 0 auto;
 }
-/* line 91, ../scss/styles.scss */
+/* line 92, ../scss/styles.scss */
 .cta-button.main {
   width: 200px;
   height: 50px;
 }
-/* line 95, ../scss/styles.scss */
+/* line 96, ../scss/styles.scss */
 .cta-button.section-button {
   float: left;
 }
 
-/* line 100, ../scss/styles.scss */
+/* line 101, ../scss/styles.scss */
 section {
   padding: 20px;
   height: auto;
   width: 100%;
   overflow: hidden;
 }
-/* line 105, ../scss/styles.scss */
+/* line 106, ../scss/styles.scss */
 section.blue-section {
   background-color: #b2d3cf;
 }
-/* line 107, ../scss/styles.scss */
+/* line 108, ../scss/styles.scss */
 section.blue-section h1 {
   color: white;
 }
-/* line 111, ../scss/styles.scss */
+/* line 112, ../scss/styles.scss */
 section a {
   color: #80917e;
 }
 
-/* line 116, ../scss/styles.scss */
+/* line 117, ../scss/styles.scss */
 .half {
   width: 49%;
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
 }
-/* line 121, ../scss/styles.scss */
+/* line 122, ../scss/styles.scss */
 .half h1, .half p {
   text-align: left;
   line-height: 24px;
 }
-/* line 125, ../scss/styles.scss */
+/* line 126, ../scss/styles.scss */
 .half img {
   width: 40%;
 }
-/* line 128, ../scss/styles.scss */
+/* line 129, ../scss/styles.scss */
 .half.contact {
   padding: 25px;
 }
 
-/* line 133, ../scss/styles.scss */
+/* line 134, ../scss/styles.scss */
 .text-right {
   text-align: right;
 }
-/* line 134, ../scss/styles.scss */
+/* line 135, ../scss/styles.scss */
 .text-right p {
   text-align: right;
 }
 
-/* line 140, ../scss/styles.scss */
+/* line 141, ../scss/styles.scss */
 .brands {
   background-color: #b6c0b5;
   color: white;
 }
-/* line 143, ../scss/styles.scss */
+/* line 144, ../scss/styles.scss */
 .brands img {
   display: inline-block;
   height: 100px;
@@ -176,7 +177,7 @@ section a {
   margin: 10px;
 }
 
-/* line 152, ../scss/styles.scss */
+/* line 153, ../scss/styles.scss */
 footer {
   background-color: #b2d3cf;
   bottom: 0px;
