@@ -9,9 +9,6 @@
   <!-- <link rel="icon" type="image/png" href="img/favicon.ico"> -->
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script> 
-  
   <title>AccessFuel</title>
 </head>
 
@@ -45,10 +42,10 @@
         <a href="http://networking.quickmvp.com/" target="_blank">Visit Site</a>
       </div>
 
-      <button class="cta-button header-button main">Learn More</button>
+      <button class="cta-button header-button main" id="main-site-button">Learn More</button>
     </div>
 
-    <section>
+    <section id="main-content">
       <div class="half">
         <h1>Discover</h1>
         <p>Tired of searching multiple sites to keep up with all the tech + startup events in Los Angeles? Well, we've made it easy by doing the work for you.  Access all the events in one place - AccessFuel.com</p>
@@ -99,12 +96,24 @@
     <section class="blue-section">
       <!-- contact -->
       <h1>Say Hello!</h1>
-      <p>1558 10th St.</p>
-      <p>Santa Monica, CA 90401</p>
-      <p>United States</p>
+      <div class="half text-right contact">
+        <p>1558 10th St.</p>
+        <p>Santa Monica, CA 90401</p>
+        <p>United States</p>
+      </div>
+      <div class="half contact">
+        <p>+1(323) 637-3839</p>
+        <p>
+          <a href="mailto:rob@accessfuel.com" target="_top">
+          Send Mail</a>
+        </p>
+      </div>
     </section>
   </div>
 
   <footer>&copy; 2014 AccessFuel. All Rights Reserved.</footer>
+
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script> 
 </body>
 </html>

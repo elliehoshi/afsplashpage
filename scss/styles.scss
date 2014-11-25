@@ -125,6 +125,16 @@ section {
   img {
     width: 40%;
   }
+  &.contact {
+    padding: 25px;
+  }
+}
+
+.text-right {
+  p {
+    text-align: right;
+  }
+  text-align: right;
 }
 
 .brands {
