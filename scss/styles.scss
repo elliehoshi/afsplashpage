@@ -19,17 +19,26 @@ a {
   text-decoration: none;
 }
 
-.page-container {
-  position: relative;
-  width: 100%;
-}
+// .page-container {
+//   position: relative;
+//   width: 100%;
+// }
 
 .header {
-  background: -webkit-linear-gradient(90deg, #616161 10%, #9bc5c3 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #616161 10%, #9bc5c3 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #616161 10%, #9bc5c3 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #616161 10%, #9bc5c3 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #616161 10%, #9bc5c3 90%); /* W3C */
+  background: -webkit-linear-gradient(90deg, rgba(97, 97, 97, 0.7) 10%, rgba(155, 197, 195, 0.7) 90%),
+    url(../assets/accessfuel-image1.png); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, rgba(97, 97, 97, 0.7) 10%, rgba(155, 197, 195, 0.7) 90%),
+    url(../assets/accessfuel-image1.png); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, rgba(97, 97, 97, 0.7) 10%, rgba(155, 197, 195, 0.7) 90%),
+    url(../assets/accessfuel-image1.png); /* IE10 */
+  background:      -o-linear-gradient(90deg, rgba(97, 97, 97, 0.7) 10%, rgba(155, 197, 195, 0.7) 90%),
+    url(../assets/accessfuel-image1.png); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, rgba(97, 97, 97, 0.7) 10%, rgba(155, 197, 195, 0.7) 90%),
+    url(../assets/accessfuel-image1.png); /* W3C */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
   padding: 50px;
   height: auto;
   min-height: 100vh;
