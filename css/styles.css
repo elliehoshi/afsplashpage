@@ -58,8 +58,8 @@ a {
 }
 /* line 65, ../scss/styles.scss */
 .feature .feature-image-contain {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   padding: 5px;
   background-color: #ecefec;
   border-radius: 50%;
@@ -67,20 +67,21 @@ a {
 }
 /* line 73, ../scss/styles.scss */
 .feature img {
-  width: 60px;
-  height: 60px;
-  margin-top: 15px;
+  width: 90px;
+  height: 90px;
+  margin-top: 25px;
+  margin-left: 2px;
 }
-/* line 78, ../scss/styles.scss */
+/* line 79, ../scss/styles.scss */
 .feature h3 {
   margin-bottom: 5px;
 }
-/* line 81, ../scss/styles.scss */
+/* line 82, ../scss/styles.scss */
 .feature a {
   color: white;
 }
 
-/* line 86, ../scss/styles.scss */
+/* line 87, ../scss/styles.scss */
 .cta-button {
   background-color: rgba(255, 255, 255, 0);
   width: 100px;
@@ -90,91 +91,91 @@ a {
   border-radius: 5px;
   transition: ease all;
 }
-/* line 94, ../scss/styles.scss */
+/* line 95, ../scss/styles.scss */
 .cta-button:hover {
   background-color: #b6c0b5;
 }
-/* line 97, ../scss/styles.scss */
+/* line 98, ../scss/styles.scss */
 .cta-button.header-button {
   display: block;
   margin: 0 auto;
 }
-/* line 101, ../scss/styles.scss */
+/* line 102, ../scss/styles.scss */
 .cta-button.main {
   width: 200px;
   height: 50px;
 }
-/* line 105, ../scss/styles.scss */
+/* line 106, ../scss/styles.scss */
 .cta-button.section-button {
   float: left;
 }
 
-/* line 110, ../scss/styles.scss */
+/* line 111, ../scss/styles.scss */
 section {
   padding: 20px;
   height: auto;
   width: 100%;
   overflow: hidden;
 }
-/* line 115, ../scss/styles.scss */
+/* line 116, ../scss/styles.scss */
 section.blue-section {
   background-color: #b2d3cf;
 }
-/* line 117, ../scss/styles.scss */
+/* line 118, ../scss/styles.scss */
 section.blue-section h1 {
   color: white;
 }
-/* line 121, ../scss/styles.scss */
+/* line 122, ../scss/styles.scss */
 section a {
   color: #80917e;
 }
 
-/* line 126, ../scss/styles.scss */
+/* line 127, ../scss/styles.scss */
 .half {
   width: 49%;
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
 }
-/* line 131, ../scss/styles.scss */
+/* line 132, ../scss/styles.scss */
 .half h1, .half p {
   text-align: left;
   line-height: 24px;
 }
-/* line 135, ../scss/styles.scss */
+/* line 136, ../scss/styles.scss */
 .half img {
   width: 40%;
 }
-/* line 137, ../scss/styles.scss */
+/* line 138, ../scss/styles.scss */
 .half img.contact-icon {
   width: 75px;
   height: auto;
 }
-/* line 142, ../scss/styles.scss */
+/* line 143, ../scss/styles.scss */
 .half.contact {
   padding: 25px;
 }
 
-/* line 147, ../scss/styles.scss */
+/* line 148, ../scss/styles.scss */
 .text-right {
   text-align: right;
 }
-/* line 148, ../scss/styles.scss */
+/* line 149, ../scss/styles.scss */
 .text-right p {
   text-align: right;
 }
 
-/* line 154, ../scss/styles.scss */
+/* line 155, ../scss/styles.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 158, ../scss/styles.scss */
+/* line 159, ../scss/styles.scss */
 .brands {
   background-color: #b6c0b5;
   color: white;
 }
-/* line 161, ../scss/styles.scss */
+/* line 162, ../scss/styles.scss */
 .brands img {
   display: inline-block;
   height: 100px;
@@ -183,7 +184,7 @@ section a {
   margin: 10px;
 }
 
-/* line 170, ../scss/styles.scss */
+/* line 171, ../scss/styles.scss */
 footer {
   background-color: #b2d3cf;
   bottom: 0px;
